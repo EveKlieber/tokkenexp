@@ -34,6 +34,7 @@ const datevalues = [
 ];
 console.log('datevalues', datevalues);
 
+//dateHelperFactory;
 const dateHelper = dateHelperFactory();
 const formatMe = date => {
   const vals = [...`yyyy,mm,dd,hh,mmi,ss,mms`.split(`,`)];
