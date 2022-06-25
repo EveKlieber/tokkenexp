@@ -19,7 +19,7 @@ const payload = {
 // )
 const isTokenExpired = (encoded) => (Date.now() >= JSON.parse(Buffer.from(token.split('.')[1], 'base64').toString()).exp * 1000)
 
-// $ npm install jsonwebtoken
+// $ npm install jsonwebtoken:
 /// https://github.com/auth0/node-jsonwebtoken/blob/master/README.md#jwtverifytoken-secretorpublickey-options-callback
 
 const timestamp = 1654626376;
